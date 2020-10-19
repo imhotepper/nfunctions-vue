@@ -6,6 +6,12 @@
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
+    <div>
+      <button v-on:click="fetchData"> <h4> Test Fetch API </h4></button>
+      <div>
+        <h3 v-text="data"></h3>
+      </div>
+    </div>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
@@ -34,8 +40,18 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String,
+    data: String
+  },
+  methods:{
+    fetchData(){
+      this.data = "....";
+      fetch('/.netlify/functions/hello')
+      .then(data => data.json())
+      .then(json => this.data =  json.message );
+    }
   }
+
 }
 </script>
 

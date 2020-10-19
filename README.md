@@ -1,5 +1,9 @@
 # netlify-lambda
 
+## setup used from 
+
+[netlify-functions-with-vue-cli](https://www.bensheedy.com/blog/netlify-functions-with-vue-cli/)
+
 ## Project setup
 ```
 yarn install
