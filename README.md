@@ -5,7 +5,9 @@
 You can check me running live 
 <a href="https://nfunctions-vue.netlify.app" target = "_blank">HERE </a>
 
-## setup used from 
+<br/>
+<br/>
+## Setup source
 
 [netlify-functions-with-vue-cli](https://www.bensheedy.com/blog/netlify-functions-with-vue-cli/)
 
