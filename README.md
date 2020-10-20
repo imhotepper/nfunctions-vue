@@ -19,6 +19,8 @@ At runtime they will be built and made available here: `http://localhost:8080/.n
 
 [Netlify lambda package](https://github.com/netlify/netlify-lambda)
 
+[vue-cli-plugin-netlify-lambda](https://github.com/netlify/vue-cli-plugin-netlify-lambda)
+
 ## Project setup
 ```
 yarn install
