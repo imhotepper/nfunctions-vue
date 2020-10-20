@@ -1,8 +1,9 @@
-# netlify-lambda
+# Vuejs with netlify-lambda 
 
 ![NFunctions vue](nfunctions-vue.png)
 
-You can check me running live [HERE](https://nfunctions-vue.netlify.app){target="_blank"} !
+You can check me running live 
+<a href="https://nfunctions-vue.netlify.app" target = "_blank">HERE </a>
 
 ## setup used from 
 
