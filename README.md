@@ -17,7 +17,7 @@ To access and create new functions they must be added inside the folder `src/fun
 
 At runtime they will be built and made available here: `http://localhost:8080/.netlify/functioms/[function name & parmas]`
 
-
+[Netlify lambda package](https://github.com/netlify/netlify-lambda)
 
 ## Project setup
 ```
