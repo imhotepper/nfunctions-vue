@@ -3,7 +3,7 @@ exports.handler = async(event, context, callback) => {
     callback(null, {
         statusCode: 200,
         body: JSON.stringify({
-            message: `Hello world ${Math.floor(Math.random() * 10)}`
+            message: `Random number generated: ${Math.floor(Math.random() * 100)}`
         })
     });
 };
