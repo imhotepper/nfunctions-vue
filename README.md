@@ -2,7 +2,7 @@
 
 ![NFunctions vue](nfunctions-vue.png)
 
-You can check me running live [HERE](https://nfunctions-vue.netlify.app) !
+You can check me running live [HERE](https://nfunctions-vue.netlify.app){target="_blank"} !
 
 ## setup used from 
 
