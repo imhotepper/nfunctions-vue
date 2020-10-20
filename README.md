@@ -3,7 +3,7 @@
 ![NFunctions vue](nfunctions-vue.png)
 
 You can check me running live 
-<a href="https://nfunctions-vue.netlify.app" target = "_blank">HERE </a>
+<a href="https://nfunctions-vue.netlify.app" target="_blank" >HERE </a>
 
 <br/>
 <br/>
