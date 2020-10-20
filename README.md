@@ -1,8 +1,20 @@
 # netlify-lambda
 
+![NFunctions vue](nfunctions-vue.png)
+
+You can check me running live [HERE](https://nfunctions-vue.netlify.app) !
+
 ## setup used from 
 
 [netlify-functions-with-vue-cli](https://www.bensheedy.com/blog/netlify-functions-with-vue-cli/)
+
+### Nelify functions 
+
+To access and create new functions they must be added inside the folder `src/functions`. 
+
+At runtime they will be built and made available here: `http://localhost:8080/.netlify/functioms/[function name & parmas]`
+
+
 
 ## Project setup
 ```
@@ -13,6 +25,7 @@ yarn install
 ```
 yarn run serve
 ```
+
 
 ### Compiles and minifies for production
 ```
